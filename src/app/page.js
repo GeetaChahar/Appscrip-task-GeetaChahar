@@ -32,7 +32,7 @@ function Home() {
     <>
       <Header />
       <Navbar />
-      <div className="flex mt-12">
+      <div className="flex mt-12 justify-center">
         <Cart state={state} dispatch={dispatch} />
         <Products state={state} dispatch={dispatch} />
       </div>

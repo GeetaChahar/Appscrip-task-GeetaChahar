@@ -35,7 +35,7 @@ const Cart = ({ state, dispatch }) => {
 
   return (
     <>
-      <div className="flex flex-col m-2 p-6 rounded-md w-[30%] lg:w-[20%]">
+      <div className="flex flex-col m-2 p-6 rounded-md max-sm:hidden w-[30%] lg:w-[20%]">
         <b className="text-center text-2xl">Cart</b>
         <b style={{ alignSelf: "center" }}>Subtotal: $ {total}</b>
 
@@ -87,7 +87,7 @@ const Cart = ({ state, dispatch }) => {
         </div>
 
         {items.map((item, index) => (
-          <div className="flex flex-col mb-4">
+          <div key={item} className="flex flex-col mb-4">
             <h5 className="flex justify-between cursor-pointer">
               <b>{item}</b>
               <span>&#11167;</span>

@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <>
-      <div className="mx-28 lg:mx-80 my-10 text-center">
+      <div className="mx-8 sm:mx-28 lg:mx-80 my-10 text-center">
         <h2 className="text-4xl my-8">DISCOVER OUR PRODUCTS</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam
@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <hr />
       <div className="flex justify-between mx-6 mt-4">
-        <div className="flex gap-14 items-baseline">
+        <div className="flex gap-2 sm:gap-14 items-baseline">
           <b>3425 ITEMS</b>{" "}
           <h5 className="text-gray-400">
             <span className="mr-2">&#11164;</span>
